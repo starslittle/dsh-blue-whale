@@ -4,6 +4,10 @@ The missing **default** DeepSeek skin for [DeepSeek Harness](https://github.com/
 
 DSH ships as a black whale: `--dsw-alias-brand-primary` is near-black in light mode and near-white in dark mode. This plugin puts the official Chat blue back on those brand roles, and leaves light / dark / follow-system to the built-in Appearance setting.
 
+![Home before / after](docs/compare-home.png)
+
+![Brand mark before / after](docs/compare-brand.png)
+
 > Not `dsh-skin`'s **Ocean**. Ocean is a dark-only deep-sea navy (`#0a101f` + `#4d86f8`). This skin keeps official DSH surfaces and uses public brand `#4D6BFE` in both schemes.
 
 ## What it changes
