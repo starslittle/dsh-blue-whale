@@ -1,0 +1,58 @@
+{
+  "name": "dsh-blue-whale",
+  "version": "0.1.0",
+  "description": "Official DeepSeek Chat blue-whale default skin for DeepSeek Harness. Light and dark follow the built-in appearance; brand tokens use #4D6BFE.",
+  "license": "MIT",
+  "author": "starslittle",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starslittle/dsh-blue-whale.git"
+  },
+  "homepage": "https://github.com/starslittle/dsh-blue-whale#readme",
+  "bugs": {
+    "url": "https://github.com/starslittle/dsh-blue-whale/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "blue-whale"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "@deepseek-ai/dsh-client-runtime": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-ui-theme": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-locale": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-client-ui-slots": "^0.1.0-rc.6"
+  }
+}
