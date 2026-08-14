@@ -1,25 +1,16 @@
 # dsh-blue-whale
 
-The missing **default** DeepSeek skin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
+English · [中文](README.zh.md)
 
-DSH ships as a black whale: `--dsw-alias-brand-primary` is near-black in light mode and near-white in dark mode. This plugin puts the official Chat blue back on those brand roles, and leaves light / dark / follow-system to the built-in Appearance setting.
+The default **blue whale** skin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
+
+DSH ships as a black whale. Chat.deepseek.com is a blue one. This plugin puts official DeepSeek blue `#4D6BFE` back on the brand — wordmark, hero fish, tab favicon, and primary actions — and leaves light / dark / follow-system to the built-in Appearance setting.
 
 ![Home before / after](docs/compare-home.png)
 
 ![Brand mark before / after](docs/compare-brand.png)
 
-> Not `dsh-skin`'s **Ocean**. Ocean is a dark-only deep-sea navy (`#0a101f` + `#4d86f8`). This skin keeps official DSH surfaces and uses public brand `#4D6BFE` in both schemes.
-
-## What it changes
-
-| | Official DSH | This skin |
-|---|---|---|
-| Brand / primary button | black (light) / white (dark) | `#4D6BFE` |
-| Light canvas | official white / bluish neutrals | unchanged |
-| Dark canvas | official bluish-950 | unchanged |
-| Light / dark switch | built-in Appearance | still built-in Appearance |
-
-Supporting tokens come from DSH's own `--dsw-static-deepseek-*` scale (`50`–`900`).
+The browser tab icon is recolored too (see the note on the images).
 
 ## Install
 
@@ -27,13 +18,34 @@ Supporting tokens come from DSH's own `--dsw-static-deepseek-*` scale (`50`–`9
 dsh plugin --profile web add -w github:starslittle/dsh-blue-whale
 ```
 
-Restart `dsh web`. The skin is **on by default**. Settings → General → 蓝鲸 / Blue Whale turns it off.
+Restart `dsh web`. The skin is **on by default**.
 
-## Why not Ocean
+Open **Settings → General → Blue Whale**. A green dot means it is on. **Close** matches the official capsule control; **Open** is the blue fill.
 
-- Ocean is one card in a 7-skin switcher, dark only.
-- This package is a default replacement: install and the black whale becomes the Chat blue whale.
-- Dark mode here is official DSH dark + official blue, not a new navy theme.
+## What it changes
+
+| | Official DSH | This skin |
+|---|---|---|
+| Sidebar whale + `deepseek` | near-black / near-white | `#4D6BFE` |
+| Hero whale | same | `#4D6BFE` |
+| Browser tab icon | black (white in OS dark) | `#4D6BFE` |
+| Brand / send / accents | black or white | `#4D6BFE` |
+| Page background | official light / dark | unchanged |
+| Light / dark switch | built-in Appearance | still built-in |
+
+Supporting colors come from DSH's own `--dsw-static-deepseek-*` scale.
+
+## Not Ocean
+
+This is not [dsh-skin](https://github.com/KinGao294/dsh-skin)'s **Ocean** card.
+
+Ocean is a dark-only deep-sea navy (`#0a101f` + `#4d86f8`) inside a 7-skin switcher. This package is a default replacement: install it, and the black whale becomes the Chat blue whale on both light and dark.
+
+## Desktop
+
+Works on official `dsh web`, and on desktop shells that embed that same Web UI (same `web` profile).
+
+It does **not** change the desktop app's window or tray icon. Headless and TUI profiles have nothing to paint.
 
 ## License
 
