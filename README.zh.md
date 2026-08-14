@@ -35,12 +35,6 @@ dsh plugin --profile web add -w github:starslittle/dsh-blue-whale
 
 辅助色来自 DSH 仓库里的 `--dsw-static-deepseek-*`。
 
-## 不是 Ocean
-
-这不是 [dsh-skin](https://github.com/KinGao294/dsh-skin) 里的 **深海蓝（Ocean）**。
-
-Ocean 是 7 套口味里一张暗色专用的深海海军蓝（`#0a101f` + `#4d86f8`）。本插件是默认替代：装上，黑鲸变成 Chat 那只蓝鲸，浅色深色都跟。
-
 ## 桌面版
 
 官方 `dsh web` 可用。套了同一套 Web UI 的桌面壳（同一个 `web` profile）一般也能用。

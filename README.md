@@ -35,12 +35,6 @@ Open **Settings → General → Blue Whale**. A green dot means it is on. **Clos
 
 Supporting colors come from DSH's own `--dsw-static-deepseek-*` scale.
 
-## Not Ocean
-
-This is not [dsh-skin](https://github.com/KinGao294/dsh-skin)'s **Ocean** card.
-
-Ocean is a dark-only deep-sea navy (`#0a101f` + `#4d86f8`) inside a 7-skin switcher. This package is a default replacement: install it, and the black whale becomes the Chat blue whale on both light and dark.
-
 ## Desktop
 
 Works on official `dsh web`, and on desktop shells that embed that same Web UI (same `web` profile).
