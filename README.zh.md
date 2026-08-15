@@ -2,7 +2,7 @@
 
 [English](README.md) · 中文
 
-给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 **蓝鲸默认皮**。
+[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的 **DeepSeek Chat 官方蓝鲸配色皮肤**，亮色/深色跟随系统外观。
 
 DSH 出厂是黑鲸，chat.deepseek.com 是蓝鲸。这个插件把官方蓝 `#4D6BFE` 还回去：侧栏字标、欢迎页鲸、浏览器标签页图标、主按钮和强调色。亮色 / 深色 / 跟随系统仍走自带的「外观」。
 

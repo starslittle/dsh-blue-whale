@@ -2,7 +2,7 @@
 
 English · [中文](README.zh.md)
 
-The default **blue whale** skin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness).
+The official DeepSeek Chat **blue-whale color** skin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). Light and dark follow the built-in appearance.
 
 DSH ships as a black whale. Chat.deepseek.com is a blue one. This plugin puts official DeepSeek blue `#4D6BFE` back on the brand — wordmark, hero fish, tab favicon, and primary actions — and leaves light / dark / follow-system to the built-in Appearance setting.
 

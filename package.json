@@ -1,7 +1,7 @@
 {
   "name": "dsh-blue-whale",
   "version": "0.1.0",
-  "description": "Official DeepSeek Chat blue-whale default skin for DeepSeek Harness. Light and dark follow the built-in appearance; brand tokens use #4D6BFE.",
+  "description": "Official DeepSeek Chat blue-whale color skin. Light and dark follow the built-in appearance.",
   "license": "MIT",
   "author": "starslittle",
   "repository": {
