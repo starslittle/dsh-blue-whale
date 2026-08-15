@@ -103,10 +103,10 @@ before = rgb(Image.open(BEFORE))
 after = rgb(Image.open(AFTER))
 
 home = stack(
-    panel(before, "使用前 · 官方黑鲸", 860),
-    panel(after, "使用后 · 官方蓝鲸", 860),
+    panel(before, "使用前 · 出厂黑鲸", 860),
+    panel(after, "使用后 · 复刻蓝鲸", 860),
     "dsh-blue-whale 首页对比",
-    "侧栏字标、欢迎页鲸标换成官方蓝 #4D6BFE；浏览器标签页图标也会换成蓝鲸",
+    "侧栏字标、欢迎页鲸标换成 Chat 蓝 #4D6BFE；浏览器标签页图标也会换成蓝鲸",
     extra=note_bar(860 * 2 + 24),
 )
 home.save(OUT / "compare-home.png", optimize=True)
@@ -119,10 +119,10 @@ before_hero = before.crop((480, 390, 1520, 720))
 after_hero = after.crop((480, 390, 1520, 720))
 
 brand = stack(
-    stack_v(before_brand, before_hero, "使用前 · 官方黑鲸"),
-    stack_v(after_brand, after_hero, "使用后 · 官方蓝鲸"),
+    stack_v(before_brand, before_hero, "使用前 · 出厂黑鲸"),
+    stack_v(after_brand, after_hero, "使用后 · 复刻蓝鲸"),
     "dsh-blue-whale 品牌对比",
-    "侧栏 deepseek 字 + 欢迎页鲸换成官方蓝；标签页图标同步变蓝",
+    "侧栏 deepseek 字 + 欢迎页鲸换成 Chat 蓝；标签页图标同步变蓝",
     extra=note_bar(820 * 2 + 32 + 24),
 )
 brand.save(OUT / "compare-brand.png", optimize=True)

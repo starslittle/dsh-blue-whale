@@ -1,7 +1,7 @@
 {
   "name": "dsh-blue-whale",
   "version": "0.1.0",
-  "description": "Official DeepSeek Chat blue-whale color skin. Light and dark follow the built-in appearance.",
+  "description": "A DeepSeek Chat-style blue-whale color skin. Light and dark follow the built-in appearance.",
   "license": "MIT",
   "author": "starslittle",
   "repository": {
