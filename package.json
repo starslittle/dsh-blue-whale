@@ -20,6 +20,10 @@
     "skin",
     "blue-whale"
   ],
+  "packageManager": "pnpm@10.5.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -28,6 +32,7 @@
     "./package.json": "./package.json"
   },
   "files": [
+    "docs",
     "lib/index.js",
     "lib/client.js",
     "cordis.patch.yml",
