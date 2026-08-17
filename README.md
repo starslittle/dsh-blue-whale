@@ -13,6 +13,12 @@ DSH ships as a black whale. [chat.deepseek.com](https://chat.deepseek.com) is a 
 ## Install
 
 ```sh
+dsh plugin --profile web add dsh-blue-whale
+```
+
+GitHub fallback:
+
+```sh
 dsh plugin --profile web add github:starslittle/dsh-blue-whale
 ```
 

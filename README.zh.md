@@ -13,6 +13,12 @@ DSH 出厂是黑鲸，[chat.deepseek.com](https://chat.deepseek.com) 是蓝鲸�
 ## 安装
 
 ```sh
+dsh plugin --profile web add dsh-blue-whale
+```
+
+GitHub 备用安装：
+
+```sh
 dsh plugin --profile web add github:starslittle/dsh-blue-whale
 ```
 
